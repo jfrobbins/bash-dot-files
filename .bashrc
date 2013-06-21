@@ -7,7 +7,12 @@ alias jrhaste='HASTE_SERVER=http://bin.jrobb.org haste'
 
 #git things:
 alias gs='git status'
-alias glog='git log --pretty --oneline'
+alias glog='git log --pretty --oneline --decorate --graph --no-merges'
+alias gc='git commit'
+alias glogtoday='git log --oneline --decorate --graph --since "yesterday" --no-merges'
+alias glognick='glog --author=Nick -7'
+alias glast='git log -1 | cat'
+alias gstat='git shortlog -sne --no-merges'
 
 #fossil:
 alias fos='fossil'
