@@ -18,6 +18,11 @@ alias gstat='git shortlog -sne --no-merges'
 alias fos='fossil'
 alias fc='fossil commit -U jrobbins'
 alias fs='fossil status'
+alias f='fossil'
+alias fui='fossil ui'
+alias fo='fossil open'
+
+
 
 #debian things:
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
