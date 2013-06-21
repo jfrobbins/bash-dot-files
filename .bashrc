@@ -7,7 +7,12 @@ alias jrhaste='HASTE_SERVER=http://bin.jrobb.org haste'
 
 #git things:
 alias gs='git status'
+alias glog='git log --pretty --oneline'
 
+#fossil:
+alias fos='fossil'
+alias fc='fossil commit -U jrobbins'
+alias fs='fossil status'
 
 #debian things:
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
